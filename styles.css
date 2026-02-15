@@ -5,6 +5,7 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
 }
 
 .hero {
@@ -32,4 +33,36 @@ h1 {
 
 h3 {
   background-color: #606c38;
+}
+
+.card img{
+  height: 200px;
+  border-radius: 50%;
+}
+
+h2{
+  margin:0px;
+  padding: 50px;
+  background-color: #F1FAEE;
+  text-align: center;
+}
+
+.content{
+  margin-top: 0;
+  background: #F1FAEE;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.card{
+  width: 400px;
+}
+
+#guide-tour h2{
+  background: none;
+  margin: none;
+  padding: none;
 }
