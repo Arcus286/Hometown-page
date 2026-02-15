@@ -3,8 +3,13 @@
   src: url("CantoraOne-Regular.ttf");
 }
 
+@font-face {
+  font-family: godfather;
+  src: url("PlaywriteNZBasic-VariableFont_wght.ttf");
+}
+
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: godfather,Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
 }
 
@@ -35,21 +40,21 @@ h3 {
   background-color: #606c38;
 }
 
-.card img{
+.card img {
   height: 200px;
   border-radius: 50%;
 }
 
-h2{
-  margin:0px;
+h2 {
+  margin: 0px;
   padding: 50px;
-  background-color: #F1FAEE;
+  background-color: #f1faee;
   text-align: center;
 }
 
-.content{
+.content {
   margin-top: 0;
-  background: #F1FAEE;
+  background: #f1faee;
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -57,12 +62,25 @@ h2{
   margin-bottom: 50px;
 }
 
-.card{
+.card {
   width: 400px;
 }
 
-#guide-tour h2{
-  background: none;
-  margin: none;
-  padding: none;
+.guide {
+  width: 600px;
+  margin: 0 auto 50px auto;
+  background-color: #a8dadc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  padding: 20px;
+  border-radius: 10px;
+  border-bottom: 6px solid #1d3557;
+}
+
+.guide img {
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
 }
